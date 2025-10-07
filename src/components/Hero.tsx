@@ -52,7 +52,8 @@ const Hero = () => {
           </h1>
 
           {/* Countdown Timer */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-12">
+         <div className="grid grid-cols-4 gap-2 sm:gap-4 md:gap-6 lg:gap-8 max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-12 overflow-x-auto">
+
             {[
               { label: "Days", value: timeLeft.days },
               { label: "Hours", value: timeLeft.hours },
